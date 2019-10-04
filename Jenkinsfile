@@ -37,11 +37,7 @@ agent any
             echo 'Built....'           
         }  
       }
-            stage('END') {           
-           steps {               
-            echo 'Built....'           
-        }  
-      }
+      
   }
 }
  
