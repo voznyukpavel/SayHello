@@ -11,7 +11,7 @@ agent any
       stage('Test') {          
         steps {       
         	 bat'make check || true'
-			 junit '*/target/surefire-reports/test.xml' 
+			 junit '**/target/surefire-reports/test.xml' 
            echo 'Testing..'           
            }        
        }       
