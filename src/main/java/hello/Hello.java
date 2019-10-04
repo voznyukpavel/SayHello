@@ -5,11 +5,9 @@
  */
 package hello;
 
-
 import java.util.Calendar;
 import java.util.Locale;
 import java.util.ResourceBundle;
-
 
 public class Hello {
     /**
@@ -22,24 +20,24 @@ public class Hello {
     }
 
     static String whatTimeIsIt(Calendar calendar) {
-        if (calendar.get(Calendar.HOUR) < 6 && calendar.get(Calendar.AM_PM) == 0) {
+        int ampm = calendar.get(Calendar.AM_PM);
+        int hour = calendar.get(Calendar.HOUR);
+        if (hour < 6 && ampm == 0) {
             return ("night");
-        } else if (calendar.get(Calendar.HOUR) < 9 && calendar.get(Calendar.AM_PM) == 0) {
+        } else if (hour < 9 && ampm == 0) {
             return ("morning");
-        } else if (calendar.get(Calendar.HOUR) < 7 && calendar.get(Calendar.AM_PM) == 1
-                || calendar.get(Calendar.HOUR) <= 12 && calendar.get(Calendar.AM_PM) == 0) {
+        } else if (hour <= 12 && ampm == 0 || hour < 7 && ampm == 1) {
             return ("day");
-        } else if (calendar.get(Calendar.HOUR) < 11 && calendar.get(Calendar.AM_PM) == 1) {
+        } else if (hour < 11 && ampm == 1) {
             return ("evening");
         } else {
             return ("night");
         }
     }
 
-    static void sayHello(String st) {
+    private static void sayHello(String st) {
         Locale current = new Locale(Locale.getDefault().getLanguage(), Locale.getDefault().getCountry());
-        ResourceBundle rb
-                = ResourceBundle.getBundle("text", current);
+        ResourceBundle rb = ResourceBundle.getBundle("text", current);
         st = rb.getString(st);
         System.out.println(st);
     }

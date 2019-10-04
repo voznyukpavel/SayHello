@@ -1,0 +1,45 @@
+2019-10-01 17:35:20 INFO  HelloTest:73 - test main
+2019-10-01 17:35:20 INFO  HelloTest:83 - test testWhatTimeIsIt
+2019-10-01 17:35:20 INFO  HelloTest:89 - OK expected evening actual evening hour 8 AM_PM 1
+2019-10-01 17:35:20 INFO  HelloTest:89 - OK expected night actual night hour 4 AM_PM 0
+2019-10-01 17:35:20 INFO  HelloTest:89 - OK expected morning actual morning hour 8 AM_PM 0
+2019-10-01 17:35:20 INFO  HelloTest:89 - OK expected day actual day hour 11 AM_PM 0
+2019-10-01 17:35:20 INFO  HelloTest:89 - OK expected night actual night hour 0 AM_PM 0
+2019-10-01 17:35:20 INFO  HelloTest:89 - OK expected night actual night hour 11 AM_PM 1
+2019-10-01 17:35:20 INFO  HelloTest:102 - test testSayHello
+2019-10-01 17:39:30 INFO  HelloTest:73 - test main
+2019-10-01 17:39:30 INFO  HelloTest:83 - test testWhatTimeIsIt
+2019-10-01 17:39:30 INFO  HelloTest:89 - OK expected evening actual evening hour 8 AM_PM 1
+2019-10-01 17:39:30 INFO  HelloTest:89 - OK expected night actual night hour 4 AM_PM 0
+2019-10-01 17:39:30 INFO  HelloTest:89 - OK expected morning actual morning hour 8 AM_PM 0
+2019-10-01 17:39:30 INFO  HelloTest:89 - OK expected day actual day hour 11 AM_PM 0
+2019-10-01 17:39:30 INFO  HelloTest:89 - OK expected night actual night hour 0 AM_PM 0
+2019-10-01 17:39:30 INFO  HelloTest:89 - OK expected night actual night hour 11 AM_PM 1
+2019-10-01 17:39:30 INFO  HelloTest:102 - test testSayHello
+2019-10-01 17:40:31 INFO  HelloTest:102 - test testSayHello
+2019-10-01 17:40:31 INFO  HelloTest:83 - test testWhatTimeIsIt
+2019-10-01 17:40:31 INFO  HelloTest:89 - OK expected evening actual evening hour 8 AM_PM 1
+2019-10-01 17:40:31 INFO  HelloTest:89 - OK expected night actual night hour 4 AM_PM 0
+2019-10-01 17:40:31 INFO  HelloTest:89 - OK expected morning actual morning hour 8 AM_PM 0
+2019-10-01 17:40:31 INFO  HelloTest:89 - OK expected day actual day hour 11 AM_PM 0
+2019-10-01 17:40:31 INFO  HelloTest:89 - OK expected night actual night hour 0 AM_PM 0
+2019-10-01 17:40:31 INFO  HelloTest:89 - OK expected night actual night hour 11 AM_PM 1
+2019-10-01 17:40:31 INFO  HelloTest:73 - test main
+2019-10-01 17:41:05 INFO  HelloTest:73 - test main
+2019-10-01 17:41:05 INFO  HelloTest:102 - test testSayHello
+2019-10-01 17:41:05 INFO  HelloTest:83 - test testWhatTimeIsIt
+2019-10-01 17:41:05 INFO  HelloTest:89 - OK expected evening actual evening hour 8 AM_PM 1
+2019-10-01 17:41:05 INFO  HelloTest:89 - OK expected night actual night hour 4 AM_PM 0
+2019-10-01 17:41:05 INFO  HelloTest:89 - OK expected morning actual morning hour 8 AM_PM 0
+2019-10-01 17:41:05 INFO  HelloTest:89 - OK expected day actual day hour 11 AM_PM 0
+2019-10-01 17:41:05 INFO  HelloTest:89 - OK expected night actual night hour 0 AM_PM 0
+2019-10-01 17:41:05 INFO  HelloTest:89 - OK expected night actual night hour 11 AM_PM 1
+2019-10-01 17:41:36 INFO  HelloTest:73 - test main
+2019-10-01 17:41:36 INFO  HelloTest:83 - test testWhatTimeIsIt
+2019-10-01 17:41:36 INFO  HelloTest:89 - OK expected evening actual evening hour 8 AM_PM 1
+2019-10-01 17:41:36 INFO  HelloTest:89 - OK expected night actual night hour 4 AM_PM 0
+2019-10-01 17:41:36 INFO  HelloTest:89 - OK expected morning actual morning hour 8 AM_PM 0
+2019-10-01 17:41:36 INFO  HelloTest:89 - OK expected day actual day hour 11 AM_PM 0
+2019-10-01 17:41:36 INFO  HelloTest:89 - OK expected night actual night hour 0 AM_PM 0
+2019-10-01 17:41:36 INFO  HelloTest:89 - OK expected night actual night hour 11 AM_PM 1
+2019-10-01 17:41:36 INFO  HelloTest:102 - test testSayHello

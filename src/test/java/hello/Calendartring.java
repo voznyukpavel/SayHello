@@ -16,11 +16,11 @@ public class Calendartring {
     private final String daytime;
     private final Calendar calendar;
 
-    Calendartring(String daytime,Calendar calendar){
-         this.calendar = calendar;
-          this.daytime = daytime;
+    Calendartring(String daytime, Calendar calendar) {
+        this.calendar = calendar;
+        this.daytime = daytime;
     }
-  
+
     public Calendar getCalendar() {
         return calendar;
     }

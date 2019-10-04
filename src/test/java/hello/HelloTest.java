@@ -18,7 +18,7 @@ import java.util.ArrayList;
 public class HelloTest extends TestCase {
 
     private static final Logger logger = Logger.getLogger(HelloTest.class);
-    private final List<Calendartring> testWhatTimeIsItData = new ArrayList();
+    private final List<Calendartring> testWhatTimeIsItData = new ArrayList<Calendartring>();
     Calendartring calendartring;
 
     public HelloTest(String testName) {
